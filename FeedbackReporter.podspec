@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
     :tag => '1.3.1'
   }
   s.platform = :osx, '10.6'
+  s.frameworks   = 'AddressBook'
   s.source_files = 'Sources/Main/*.{h,m}'
 end

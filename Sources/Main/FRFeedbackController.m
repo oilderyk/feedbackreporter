@@ -27,6 +27,7 @@
 #import "NSMutableDictionary+Additions.h"
 
 #import <AddressBook/ABAddressBook.h>
+#import <AddressBook/ABPerson.h>
 #import <AddressBook/ABMultiValue.h>
 #import <SystemConfiguration/SCNetwork.h>
 #import <SystemConfiguration/SCNetworkReachability.h>
