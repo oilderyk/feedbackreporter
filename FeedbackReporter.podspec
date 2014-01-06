@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.frameworks   = 'AddressBook'
   s.prefix_header_file = 'Sources/Main/FeedbackReporter.pch'
   s.source_files = 'Sources/Main/*.{h,m}'
+  s.resources = 'Sources/Resources/*'
 end
