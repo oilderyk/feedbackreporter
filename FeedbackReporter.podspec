@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
     :git => 'https://github.com/oilderyk/feedbackreporter.git',
     :tag => '1.3.1'
   }
-  s.platform = :osx, '10.8'
-  s.source_files = '*.{h,m}'
+  s.platform = :osx, '10.6'
+  s.source_files = 'Sources/Main/*.{h,m}'
 end
