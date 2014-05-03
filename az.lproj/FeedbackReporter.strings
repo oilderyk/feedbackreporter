@@ -1,0 +1,78 @@
+/* Uncaught exception message */
+"%@ has encountered an exception!" = "%@ gözlənilməz səhv baş verdi.";
+
+/* Message text for crash report */
+"%@ has recently crashed!" = "%@ yaxınlarda qəzaya uğrayıb!";
+
+/* */
+"anonymous" = "anonim";
+
+/* */
+"Cancel" = "çıxış";
+
+/* Comments text view label */
+"Comments:" = "Siz problem meydana idi əvvəl nə:";
+
+/* */
+"Console" = "Console";
+
+/* */
+"CrashLog" = "Crash Log";
+
+/* */
+"Details" = "Crash Giriş";
+
+/* */
+"Email address:" = "Sizin e-mail sizə ilə əlaqə almaq üçün bizə istəyirsinizsə:";
+
+/* */
+"Error: %@" = "Error: %@";
+
+/* */
+"Exception" = "istisna";
+
+/* Comment label text for feedback */
+"Feedback comment label" = "Geribildiriminiz:";
+
+/* */
+"Feedback" = "Əlaqə";
+
+/* */
+"Feedback Host Not Reachable" = "Əlaqə Host Zəng çatmır";
+
+/* Feedback message text */
+"Got a problem with %@?" = "Necə %@ yaxşılaşdırmaq üçün bir fikir var?";
+
+/* */
+"OK" = "OK";
+
+/* */
+"Preferences" = "Üstün seçimlər";
+
+/* */
+"Proceed Anyway" = "Hər halda keçin";
+
+/* */
+"Script" = "ssenari";
+
+/* */
+"Send" = "göndərmək";
+
+/* Informative text for crash report */
+"Send crash report" = "To help us fix the problem, please send us this feedback report. Click Details to see what information is sent to us.";
+
+/* */
+"Send details" = "ətraflı göndər";
+
+/* Informative text for feedback */
+"Send feedback" = "Bizə problemi həll kömək etmək üçün, bizə bu rəy hesabat göndərin. Bizə göndərilir nə information görmək üçün Details Basın.";
+
+/* */
+"Sorry, failed to submit your feedback to the server." = "Server sizin rəy təqdim Error.";
+
+/* */
+"System" = "System";
+ 
+/* */
+"You may not be able to send feedback because %@ isn't reachable." = "% @ Müyəssər deyil, çünki Siz geribildirim göndərmək üçün ola bilər.\n\nSiz icraatı əvvəl bir şəbəkə bağlantısı təmin edin.\n";
+

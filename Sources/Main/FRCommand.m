@@ -161,15 +161,11 @@
 
     [task launch];
 
-    NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];
     while(!terminated) {
         if (![[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate dateWithTimeIntervalSinceNow:100000]]) {
             break;
         }
-        [pool drain];
-        pool = [[NSAutoreleasePool alloc] init];
     }
-    [pool drain];
 
     [self appendDataFrom:outFile to:output];
     [self appendDataFrom:errFile to:error];
