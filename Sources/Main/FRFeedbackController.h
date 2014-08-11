@@ -23,7 +23,7 @@
 
 @interface FRFeedbackController : NSWindowController 
 #if MAC_OS_X_VERSION_MAX_ALLOWED >= 1060 // on lines like this to not confuse IB
-<FRUploaderDelegate, NSWindowDelegate>
+<FRUploaderDelegate, NSTextViewDelegate, NSWindowDelegate>
 #else
 <FRUploaderDelegate>
 #endif
