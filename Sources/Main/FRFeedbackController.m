@@ -53,6 +53,7 @@
     [tabScript retain];
     [tabPreferences retain];
     [tabException retain];
+    [messageView setDelegate:self];
 }
 
 #pragma mark Destruction
@@ -677,5 +678,15 @@
     return [[self window] isVisible];
 }
 
+#pragma mark UITextViewDelegate Methods
 
+- (BOOL)textView:(NSTextView *)textView shouldChangeTextInRange:(NSRange)affectedCharRange replacementString:(NSString *)replacementString
+{
+    if(textView == messageView)
+    {
+        NSUInteger newLength = [textView.textStorage.string length] + [replacementString length] - affectedCharRange.length;
+        return (newLength > 512) ? NO : YES;
+    }
+    return NO;
+}
 @end
